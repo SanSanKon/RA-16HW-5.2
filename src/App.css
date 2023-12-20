@@ -1,0 +1,209 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-news {
+  display: flex;
+}
+
+.nav-news a {
+  margin: 0 0.5rem 0 0;
+}
+
+.news-container {
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+.currentnews-container {
+  display: flex;
+}
+
+.currentnews-container img {
+  margin: 0 0.5rem 0 0;
+}
+
+.search {
+  margin: 0 0 1rem;
+}
+
+.search-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+.search-navigation {
+  display: flex;
+  margin: 0;
+  width: 85%;
+}
+
+.search-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.searchlist-item {
+  list-style: none;
+  margin: 0 1rem 0 0;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.search-input p {
+  margin: 0 0 0 3rem;
+}
+
+.search-form {
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
+
+.search-form img {
+  max-height: 50px;
+  max-width: 500px;
+}
+
+.inner-search-form {
+  display: flex;
+  width: 80%;
+}
+
+.inner-search-form input {
+  width: 80%;
+}
+
+.search-advertisement {
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin: 0 0 0 3rem;
+  padding: 0.5rem 1rem;
+  width: 60%;
+}
+
+.otherStuff-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.popular-container {
+  margin: 0 0.75rem 0 0;
+  /* width: 30%; */
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem;
+}
+
+.weather-container h3 {
+  margin: 0 0 0.5rem;
+}
+
+.forecast-container {
+  display: flex;
+}
+
+.forecast-current {
+  align-items: center;
+  display: flex;
+  margin: 0 0.75rem 0 0;
+}
+
+.forecast-current img {
+  margin: 0 0.5rem 0 0;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.forecast-current p {
+  margin: 0;
+}
+
+.forecast-future p {
+  margin: 0 0 0.5rem;
+}
+
+.visited-container h3, p {
+  margin: 0 0 0.5rem;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0.5rem;
+}
+
+.map-container h3 {
+  margin: 0 0 1.25rem;
+}
+
+.map-container p {
+  margin: 0;
+}
+
+.tv-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tv-programm {
+  align-items: center;
+  display: flex;
+  margin: 0 0 1rem;
+}
+
+.tv-programm h3 {
+  margin: 0 0.5rem 0 0;
+}
+
+.schedule p {
+  display: flex;
+}
+
+.schedule p span {
+  margin: 0 0.5rem 0 0;
+}
+
+.onair-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.onair-container h3{
+  margin: 0 0 0.5rem;
+}
+
+.onair-schedule-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.onair-schedule-container img {
+  margin: 0 0.5rem 0 0;
+  max-height: 10px;
+  max-width: 10px;
+}
+
+.onair-title {
+  margin: 0 0.5rem 0 0;
+}
